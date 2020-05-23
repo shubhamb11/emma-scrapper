@@ -1,1 +1,1 @@
-web: gunicorn emma-scapper:app
+web: gunicorn emma-scrapper:app
