@@ -1,0 +1,14 @@
+beautifulsoup4==4.9.1
+bs4==0.0.1
+Flask==1.1.2
+Flask-Cors==3.0.8
+gunicorn==19.10.0
+ipaddress==1.0.22
+lxml==4.5.1
+parse==1.15.0
+pycparser==2.19
+requests==2.23.0
+selenium==3.141.0
+virtualenv==20.0.21
+Werkzeug==1.0.1
+
