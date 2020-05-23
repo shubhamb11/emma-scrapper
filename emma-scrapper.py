@@ -38,7 +38,7 @@ def search(methods=["GET"]):
         #     # print(box[0].get_attribute('outerHTML'), file=f)
         #     f.write(box[0].get_attribute('outerHTML'))
     except TimeoutException:
-        return "Loading took too much time or the Cusip Id is wrong!"
+        return "<h1>Loading took too much time or the Cusip Id is wrong!</h1>"
     driver.quit
 
 
