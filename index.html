@@ -208,7 +208,6 @@
         <script>
             function searchCusip() {
                 var id = $("#searchInput").val();
-                console.log(id);
                 if (id == "") {
                     $("#emma-box-wrapper").html("<h1>Enter Cusip Value!</h1>");
                 } else {
@@ -219,9 +218,6 @@
                     type: "GET",
                     url: url,
                 }).done(function (res) {
-                    // do something
-                    console.log(res);
-
                     $("#emma-box-wrapper").html(res);
                 });
             }
