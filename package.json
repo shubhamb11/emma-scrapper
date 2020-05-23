@@ -1,0 +1,24 @@
+{
+    "name": "emma-scrapper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "cp index.html ./dist/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shubhamb11/emma-scrapper.git"
+    },
+    "keywords": [
+        "python",
+        "js"
+    ],
+    "author": "Shubham Bhardwaj",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shubhamb11/emma-scrapper/issues"
+    },
+    "homepage": "https://github.com/shubhamb11/emma-scrapper#readme"
+}
