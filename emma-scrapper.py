@@ -27,7 +27,6 @@ CORS(app)
 @app.route("/search")
 def search(methods=["GET"]):
     try:
-        # return request.args["id"]
         URL = baseUrl+request.args["id"]
         print(URL)
         driver.get(URL)
